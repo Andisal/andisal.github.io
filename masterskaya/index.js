@@ -10,6 +10,10 @@ function init() {
     number: -750
   }, 4000); 
   $("#gh").animateNumber({
-    number: 3500-750
-  }, 5750);
-}
+    number: 2700
+  }, 2000,
+    function() {
+    $('#gh').text('Много'),
+    $('.rub').hide()
+    })
+};
