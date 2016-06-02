@@ -65,3 +65,39 @@ iframe{
     height: 420px;
     margin-bottom: 120px
 }
+.titlestep{
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+.facts{
+    text-align: center;
+}
+.facts ul{
+    list-style: none;
+    margin-bottom: 60px
+}
+.facts li{
+    display: inline-block;
+    font-size: 50px;
+    font-weight: 700;
+}
+.facts li p{
+    font-size: 15px;
+    margin: 0 16px;
+}
+.about span{
+    font-size: 12px;
+    opacity: 0.7;
+}
+blockquote{
+    border-left: 5px solid #29b28f;
+}
+blockquote li{
+    font-size: 16px;
+}
+.green-box {
+	background: #29b28f;
+    border-radius: 4px;
+    padding: 3%;
+}
