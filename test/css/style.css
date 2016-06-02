@@ -1,5 +1,9 @@
 body{
     font-family: 'Open Sans', sans-serif;
+    color: #5c6566;
+}
+.container{
+    width: 860px;
 }
 .topheader {
 	height: 109px;
@@ -27,9 +31,37 @@ h1 {
     font-size: 75px;
     font-weight: 600;
 }
+h2 {
+    color: #5c6566;
+    font-size: 40px;
+    margin: 25px 0 10px;
+    font-weight: 400;
+}
 h3 {
     font-size: 45px;
     text-shadow: 1px 1px 5px rgba(0,0,0,.36);
     font-weight: 600;
     line-height: 1.4;
+}
+.codes{
+    text-align: center;
+}
+ol{
+    padding-left: 18px;
+}
+.features strong{
+    color: #29b28f;
+}
+.features strong:hover{
+    color: #0078a0;
+}
+.features strong.two {
+    color: #000;
+}
+.block {
+	height: 200px;
+}
+iframe{
+    height: 420px;
+    margin-bottom: 120px
 }
