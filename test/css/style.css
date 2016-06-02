@@ -101,3 +101,9 @@ blockquote li{
     border-radius: 4px;
     padding: 3%;
 }
+.topfooter{
+    background: #29b28f;
+}
+footer{
+    color: rgba(0,0,0,0.66);
+}
