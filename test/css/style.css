@@ -1,10 +1,10 @@
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #5c6566;
 }
 .topheader {
 	height: 109px;
-    background: #009a7c
+    background: #009a7c;
 }
 .logo {
     display: block;
@@ -12,6 +12,8 @@ body{
 }
 .bg-header {
 	background: url(../img/background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
     text-align: center;
     color: #fff;
     padding: 30px 0;
@@ -23,22 +25,7 @@ body{
     border: none;
     border-radius: 2px;
     border-bottom: 3px solid rgba(23,23,23,.18);
-}
-h1 {
-    font-size: 75px;
-    font-weight: 600;
-}
-h2 {
-    color: #5c6566;
-    font-size: 40px;
-    margin: 25px 0 10px;
-    font-weight: 400;
-}
-h3 {
-    font-size: 45px;
-    text-shadow: 1px 1px 5px rgba(0,0,0,.36);
-    font-weight: 600;
-    line-height: 1.4;
+    padding: 10px 15px;
 }
 .table>thead>tr>th{
     vertical-align: middle;
@@ -48,6 +35,9 @@ h3 {
 .table>thead>tr.name>th{
     font-weight: 600;
     text-align: center;
+}
+.img-responsive {
+	margin: 0 auto;
 }
 th{
     text-align: center;
@@ -63,6 +53,9 @@ th{
 .codes{
     text-align: center;
 }
+h2{
+    font-weight: 700;
+}
 ol{
     padding-left: 18px;
 }
@@ -75,8 +68,34 @@ ol{
 .features strong.two {
     color: #000;
 }
-.block {
+.calculator {
 	height: 200px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    width: 40%;
+    margin: 40px auto;
+}
+.headcalc {
+	display: block;
+    margin: 0 auto;
+    height: 80px;
+    width: auto;
+    background: -webkit-linear-gradient(45deg,#009a7c 0,#1bc1a1 100%);
+    background: linear-gradient(45deg,#009a7c 0,#1bc1a1 100%);
+    text-align: center;
+    color: #fff;
+}
+.bodycalc {
+	height: 200px;
+    width: auto;
+    margin: 0 auto;
+}
+input{
+    width: 50px;
+    text-align: center;
+}
+.bodycalc span{
+    position: relative;
+    left: 15px;
 }
 iframe{
     height: 420px;
@@ -104,7 +123,8 @@ iframe{
     margin: 0 16px;
 }
 .about span{
-    font-size: 12px;
+    display: block;
+    text-align: center;
     opacity: 0.7;
 }
 blockquote{
