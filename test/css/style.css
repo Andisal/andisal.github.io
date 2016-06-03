@@ -2,19 +2,16 @@ body{
     font-family: 'Open Sans', sans-serif;
     color: #5c6566;
 }
-.container{
-    width: 860px;
-}
 .topheader {
 	height: 109px;
     background: #009a7c
 }
 .logo {
-    margin: 20px 45%;
+    display: block;
+    margin: 20px auto;
 }
 .bg-header {
 	background: url(../img/background.jpg) no-repeat;
-    background-size: cover;
     text-align: center;
     color: #fff;
     padding: 30px 0;
@@ -42,6 +39,26 @@ h3 {
     text-shadow: 1px 1px 5px rgba(0,0,0,.36);
     font-weight: 600;
     line-height: 1.4;
+}
+.table>thead>tr>th{
+    vertical-align: middle;
+    font-weight: 400;
+    text-align: center;
+}
+.table>thead>tr.name>th{
+    font-weight: 600;
+    text-align: center;
+}
+th{
+    text-align: center;
+    font-weight: 400;
+}
+.table>thead>tr.namegreen>th {
+    font-weight: 600;
+	background: #00947c;
+    color: #fff;
+    height: 60px;
+    font-size: 20px
 }
 .codes{
     text-align: center;
