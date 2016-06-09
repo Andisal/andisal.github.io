@@ -1,0 +1,114 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #5c6566;
+	background: url('../img/bg.jpg') no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	background-position: center;
+}
+header {
+	background: #0054A5;
+	text-align: center;
+	height: 
+}
+img.logo {
+	margin: 15px 0;
+}
+.topheader li {
+	display: inline-block;
+}
+.topheader li a {
+	display: inline-block;
+	padding: 0 45px 0 5px;
+	color: #fff;
+	text-transform: uppercase;
+	border: 0px;
+	font-size: 14px;
+	line-height: 40px;
+}
+h1 {
+	text-align: center;;
+	text-transform: uppercase;
+	color: #000;
+	font-weight: 800;
+	font-style: 36px;
+	line-height: 36px;
+	margin-bottom: 40px;
+}
+.box {
+	width: 100%;
+}
+.box-head {
+	width: 100%;
+	background: #0054A5;
+	text-align: center;
+	border-top-left-radius: 5px;
+}
+.box-about {
+	background: #E9E9E9;
+	padding: 20px 20px 1px 20px;
+}
+.box-filter {
+	margin-top: 40px;
+}
+.box-filter .box-head {
+	width: 100%;
+	background: #0054A5;
+	text-align: center;
+	padding: 20px 0;
+	border-top-left-radius: 5px;
+}
+.box-filter .box-head h3 {
+	text-transform: uppercase;
+	color: #fff;
+	margin: 0px;
+	line-height: 18px;
+	font-size: 16px;
+}
+.box-body {
+	background: #E9E9E9;
+	padding: 20px 20px 1px 20px;
+}
+.box .box-head img {
+	display: inline-block;
+	margin: 0 10px 8px -10px;
+}
+.box .box-head h4 {
+	text-transform: uppercase;
+	color: #fff;
+	margin: 0px;
+	line-height: 18px;
+	font-size: 16px;
+	font-weight: 700;
+	display: inline-block;
+}
+.box .box-foot {
+	background: #E9E9E9;
+	border-bottom-left-radius: 5px;
+	padding: 0 20px 0 20px;
+}
+.box .box-foot .btn-primary {
+	width: 100%;
+	padding: 10px 0;
+	margin: 20px 0;
+	border-radius: 5px;
+	display: inline-block;
+	text-align: center;
+	background: #008000;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 700;
+	font-size: 16px;
+}
+footer {
+	background: #0054A5;
+}
+ul.links li{
+	display: inline-block;
+	text-align: center;
+}
+ul.links li a {
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 14px;
+}
