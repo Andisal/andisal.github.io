@@ -6,15 +6,24 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<header>
 		<div class="topheader">
 			<div class="container">
 				<a href=""><img src="img/logo.png" alt="" class="logo"></a>
+				<div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#b-menu-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
 				<nav>
-					<ul>
+					<ul class="collapse navbar-collapse" id="b-menu-1">
 						<li><a href="#">Blackjack</a></li>
 						<li><a href="#">Roulette</a></li>
 						<li><a href="#">Logiciel</a></li>
@@ -40,31 +49,31 @@
 					</div>
 					<div class="box-body">
 						<div class="container">
-							<div class="col-xs-2">
+							<div class="col-sm-2">
 								<label>
 									<input type="checkbox">
 									 Betsoft
 								</label>
 							</div>
-							<div class="col-xs-2">
+							<div class="col-sm-2">
 								<label>
 									<input type="checkbox">
 									 NetEnt
 								</label>
 							</div>
-							<div class="col-xs-2">
+							<div class="col-sm-2">
 								<label>
 									<input type="checkbox">
 									 Mobile
 								</label>
 							</div>
-							<div class="col-xs-2">
+							<div class="col-sm-2">
 								<label>
 									<input type="checkbox">
 									 Tours Gratuit
 								</label>
 							</div>
-							<div class="col-xs-3">
+							<div class="col-sm-3">
 								<label>
 									<input type="checkbox">
 									 Sans condition de mise
@@ -73,11 +82,105 @@
 						</div>
 					</div>
 				</div>
-				<div class="table-responsive">
-					<table></table>
+				<div class="table-responsive" style="margin-top:40px">
+					<table class="table">
+						<thead>
+							<tr>
+								<th>#</th>
+								<th>CASINO</th>
+								<th>BONUS EXCLUSIF</th>
+								<th>LOGICIEL</th>
+								<th>APPAREIL</th>
+								<th>ÉVALUATION</th>
+								<th>JOUER</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th>1</th>
+								<th><div class="casino-logo" style="background: #DAA520 url(../img/le-bon.png) center center no-repeat"></div></th>
+								<th>100% jusqu’à 1,000 €<br>Sans conditions de mise</th>
+								<th><div class="software-sprite software-rtg"></div></th>
+								<th><div class="device-sprite imgbox"></div></th>
+								<th><div class="sprite-rating fivestar"></div></th>
+								<th><a href="" class="btn btn-orange">JOUER</a>
+								<a href="">En savoir plus <i class="fa fa-arrow-circle-down"></i></a></th>
+							</tr>
+							<tr>
+								<th>2</th>
+								<th><div class="casino-logo" style="background: #980000 url(../img/casino-777.png) center center no-repeat"></div></th>
+								<th>100% jusqu’à 200 €<br>+ 50 Tours Gratuit!</th>
+								<th>
+									<div class="software-sprite software-amaya"></div>
+									<div class="software-sprite software-aristocrat"></div>
+									<div class="software-sprite software-bally"></div>
+									<div class="software-sprite software-igt"></div>
+									<div class="software-sprite software-netent"></div>	
+								</th>
+								<th><div class="device-sprite imgbox"></div></th>
+								<th><div class="sprite-rating fourhalfstar"></div></th>
+								<th><a href="" class="btn btn-orange">JOUER</a>
+								<a href="">En savoir plus <i class="fa fa-arrow-circle-down"></i></a></th>
+							</tr>
+							<tr>
+								<th>3</th>
+								<th><div class="casino-logo" style="background: #C5B358 url(../img/parklane.png) center center no-repeat"></div></th>
+								<th>200% jusqu'à 2000€<br>Bonus exclusif !</th>
+								<th>
+									<div class="software-sprite software-amaya"></div>
+									<div class="software-sprite software-aristocrat"></div>
+									<div class="software-sprite software-betsoft"></div>
+									<div class="software-sprite software-gamescale"></div>
+									<div class="software-sprite software-netent"></div>	
+									<div class="software-sprite software-nextgen"></div>	
+									<div class="software-sprite playngo"></div>	
+									<div class="software-sprite software-yggdrasil"></div>	
+								</th>
+								<th><div class="device-sprite imgbox"></div></th>
+								<th><div class="sprite-rating fivestar"></div></th>
+								<th><a href="" class="btn btn-orange">JOUER</a>
+								<a href="">En savoir plus <i class="fa fa-arrow-circle-down"></i></a></th>
+							</tr>
+							<tr>
+								<th>4</th>
+								<th><div class="casino-logo" style="background: #06143D url(../img/paris-casino.png) center center no-repeat"></div></th>
+								<th>100% jusqu’à 1,000 €<br>+ sans condition de mise !</th>
+								<th>
+									<div class="software-sprite software-betsoft"></div>
+									<div class="software-sprite software-netent"></div>	
+									<div class="software-sprite playngo"></div>
+								</th>
+								<th><div class="device-sprite imgbox"></div></th>
+								<th><div class="sprite-rating fivestar"></div></th>
+								<th><a href="" class="btn btn-orange">JOUER</a>
+								<a href="">En savoir plus <i class="fa fa-arrow-circle-down"></i></a></th>
+							</tr>
+							<tr>
+								<th>5</th>
+								<th><div class="casino-logo" style="background: #295990 url(../img/euro-moon.png) center center no-repeat"></div></th>
+								<th>250 % jusqu’à 1000 €<br>+ 20 Tours Gratuit</th>
+								<th>
+									<div class="software-sprite software-amaya"></div>
+									<div class="software-sprite software-betsoft"></div>
+									<div class="software-sprite software-gamescale"></div>
+									<div class="software-sprite software-netent"></div>	
+									<div class="software-sprite playngo"></div>	
+								</th>
+								<th><div class="device-sprite imgbox"></div></th>
+								<th><div class="sprite-rating fourstar"></div></th>
+								<th><a href="" class="btn btn-orange">JOUER</a>
+								<a href="">En savoir plus <i class="fa fa-arrow-circle-down"></i></a></th>
+							</tr>
+						</tbody>
+						<tfoot>
+							<tr>
+								<td colspan="7"></td>
+							</tr>
+						</tfoot>
+					</table>
 				</div>
-				<div class="box">
-					<div class="box-body" style="border-bottom-left-radius:5px">
+				<div class="box" style="margin-bottom:40px;">
+					<div class="box-body" style="border-bottom-left-radius:5px;border-bottom-right-radius:5px">
 						<h2>Comment choisir les casinos sur internet avant de jouer ?</h2>
 						<p>Le but de notre site, <a href="">Casinoslive.fr</a>, est de vous permet de <em>trouver les meilleurs casinos virtuels français et casinos live (avec croupier en direct) de 2016</em>. Avant de vous lancer à jouer n'importe où, profitez de notre comparateur pour sélectionner le site qui correspondra le mieux à vos attentes. <em>Notre guide vous permet de choisir le site de jeux en ligne en fonction</em> de leurs offres de bonus, des logiciels de jeux... Et également de profiter d'une évaluation de la qualité global du site.</p><br>
 						<img src="img/1.png" alt="" style="float:right; margin: 10px;">
@@ -110,9 +213,6 @@
 						<h4>Les nouveaux sites en ligne français sont-ils toujours fiables et innovants ?</h4>
 						<p>Internet n'est jamais à cours de nouveautés on le sait tous, chaque année de nouveaux sites français font leurs apparitions sur la toile. Mais sont-ils tous à la hauteur des espérances des joueurs ? Le guide casino, Casinoslive.fr et son équipe d'experts, suit de prêt toute nouvelle sortie. Cela à pour but, dans un premier temps de vous offrir toujours ce qui ce fait de mieux en matière de jeux de casino en ligne, mais aussi afin d'avertir les internautes des potentiellement très peu fiable. Nous vous délivrons ici, un article, qui vous aidera à <strong>choisir les meilleurs sites 2016 en ligne</strong>, parmi les nouveaux arrivant (MonsieurVegas, WildSultan, LeBonCasino...) et nous vous dévoilerons également <strong>notre top 5</strong> des nouveaux casinos <a href="">qui marquerons l'année 2016</a>.</p>
 					</div>
-				</div>
-				<div class="social">
-					gre
 				</div>
 				<div class="col-xs-12 col-md-6">
 					<div class="box">
@@ -150,14 +250,27 @@
 			<div class="col-xs-12 col-md-8">
 				<ul class="links">
 					<li><a href="#">home</a></li>
-					<li><a href="#">Choisir ?</a></li>
 					<li><a href="#">Casino en ligne</a></li>
+					<li><a href="#">Choisir ?</a></li>
 					<li><a href="#">Contactez-Nous</a></li>
 					<li><a href="#">Jouer</a></li>
 					<li><a href="#">Jeu Responsable</a></li>
 				</ul>
 			</div>
+			<div class="col-sm-12 col-md-4 col-xs-hidden">
+				<ul class="footericons">
+					<li><a href=""><img src="img/gambleaware.png" alt=""></a></li>
+					<li><a href=""><img src="img/18.png" alt=""></a></li>
+					<li><a href=""><img src="img/gamcare.png" alt=""></a></li>
+					<li><a href=""><img src="img/stop.png" alt=""></a></li>
+				</ul>
+			</div>
+			<div class="col-xs-12 col-md-4">
+				<p class="copyright">© 2016 <a href="" style="color: #fff">CasinosLive.fr</a>. All Rights Reserved.</p>
+			</div>
 		</div>
 	</footer>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
