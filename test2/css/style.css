@@ -258,11 +258,30 @@ th {
 .table tr:hover th .sprite-rating.fourstar {
     background-position: -89px -120px;
 }
+.device-sprite.imgboxdesktop {
+    background-position: -76px -95px;
+}
+.table tr:hover th .device-sprite.imgboxdesktop {
+    background-position: -1px -95px;
+}
+.table tr:hover th .device-sprite.imgbox {
+    background-position: 0px 0;
+}
 .table tfoot tr td {
 	background: #0054A5;
 	height: 20px;
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
+}
+.table tbody tr:hover th {
+	background: #1f7dd8;
+	color: #fff;
+}
+.table tbody tr:hover th a {
+	color: #fff;
+}
+.table tbody tr th{
+	border: none;
 }
 .table a {
 	font-size: 12px;
