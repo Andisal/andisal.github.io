@@ -1,0 +1,94 @@
+body {
+    background: #e7eae1;
+    line-height: 1.5;
+}
+a {
+	color: #3ba2cf;
+}
+nav {
+    background: #b3b300;
+    height: 44px;
+    line-height: 44px;
+	text-align: center;
+    font-size: 30px;
+}
+img.logo {
+	display: block;
+	margin: 20px auto;
+}
+.title {
+	background: #fff;
+	display: block;
+	padding: 10px 10px 20px 10px;
+	line-height: 28px;
+	font-size: 23px;
+	font-weight: bold;
+	min-height: 120px;
+	margin-top: 40px;
+}
+p {
+	font-size: 14px;
+	margin-bottom: 60px;
+	color: #fff;
+	font-weight: bold;
+	text-align: justify;
+	line-height: 20px;
+	padding: 10px;
+}
+.description {
+	min-height: 251px;
+}
+.btn {
+	background: #fff;
+	display: block;	
+	width: 186px;
+	margin: 0 auto;
+	border: none;
+	border-radius: 0;
+	font-weight: bold;
+}
+.orange .title a{
+	color: #f48c25;
+	text-decoration: none;
+}
+.purple .title a{
+	color: #8c3cdd;
+	text-decoration: none;
+}
+.azure .title a{
+	color: #47c2eb;
+	text-decoration: none;
+}
+.orange .description {
+	background: #f48c25;
+}
+.purple .description {
+	background: #8c3cdd;
+}
+.azure .description {
+	background: #47c2eb;
+}
+.orange .btn {
+	color: #f48c25;
+}
+.purple .btn {
+	color: #8c3cdd;
+}
+.azure .btn {
+	color: #47c2eb;
+}
+.col-xs-4:hover > .title a {
+	color: #1e8000;
+}
+.col-xs-4:hover > .description {
+	background: #1e8000;
+}
+.col-xs-4:hover > .description a.btn {
+	color: #1e8000;
+}
+.btn:hover {
+	background: #fff;
+}
+footer {
+	margin-bottom: 40px;
+}
