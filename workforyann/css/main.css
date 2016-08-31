@@ -28,20 +28,17 @@ img.logo {
 }
 p {
 	font-size: 14px;
-	margin-bottom: 60px;
+	margin-bottom: 40px;
 	color: #fff;
 	font-weight: bold;
 	text-align: justify;
 	line-height: 20px;
 	padding: 10px;
 }
-.description {
-	min-height: 251px;
-}
 .btn {
 	background: #fff;
-	display: block;	
-	width: 186px;
+	display: block;
+	width: 55%;
 	margin: 0 auto;
 	border: none;
 	border-radius: 0;
