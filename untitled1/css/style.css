@@ -1,0 +1,306 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url(fonts/OPENSANS-LIGHT.ttf);
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url(fonts/OPENSANS-BOLD.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url(fonts/OPENSANS-SEMIBOLD.ttf);
+    font-weight: 600;
+
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url(fonts/OPENSANS-BOLDITALIC.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: "HenriDidot";
+    src: url(fonts/HenriDidot.otf);
+}
+@font-face {
+    font-family: "Bodoni-Book";
+    src: url(fonts/bodoni-book-5955e007c8b21.otf);
+}
+
+body {
+    font-family: "Open Sans";
+    background: #ffffff;
+    color: #4b4b4d;
+}
+h1 {
+    font-family: "Bodoni-Book";
+    font-size: 40px;
+}
+h2 {
+    font-family: "Bodoni-Book";
+    font-size: 35px;
+}
+ul li {
+    text-transform: uppercase;
+}
+ul li a{
+    color: #4b4b4d;
+}
+li.active a {
+    font-weight: 600;
+}
+a:hover {
+    text-decoration: none;
+}
+a.logo {
+    color: #4b4b4d;
+}
+.main{
+    width: 98%;
+    margin: 0 auto;
+    background: #f5f5f5;
+}
+.elegance {
+    background: #ffe1e3;
+    margin-top: 40px;
+}
+.imgelegance {
+    float: right;
+}
+.text {
+    border: 2px solid #ffffff;
+    margin: 20px;
+    padding: 15px;
+    position: relative;
+    right: 50px;
+}
+.btn-contact {
+    border: 1px solid #000000;
+    color: #000;
+    border-radius: 0;
+}
+.icon {
+    font-size: 18px;
+}
+.author {
+    opacity: 0.8;
+}
+.row {
+    margin-top: 60px;
+}
+.sweater {
+    text-align: right;
+}
+.texttwo {
+    margin-top: 60px;
+    border: 2px solid #ffffff;
+    padding-left: 100px;
+}
+.textabout {
+    border-left: 2px solid #ffffff;
+    padding: 15px 15px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+.textoem {
+    margin: 20px 120px 20px 0px;
+    border: 2px solid #ffffff;
+    width: 1200px;
+    padding: 70px 450px 70px 0;
+}
+.textoem h1 p {
+    margin-right: 50px;
+}
+.oem {
+    margin-top: -10px;
+    font-size: 200px;
+    position: relative;
+    right: 120px;
+    font-family: "Bodoni-Book";
+}
+.textodm {
+    border: 2px solid #ffffff;
+    width: 1000px;
+    padding: 60px 0 60px 100px;
+    margin: 20px 0 20px 200px;
+}
+.textodm h1 p {
+    margin-right: 50px;
+}
+.ourfactory {
+    text-align: right;
+}
+.odm{
+    margin-top: 20px;
+    font-size: 200px;
+    position: relative;
+    left: 120px;
+    font-family: "Bodoni-Book";
+    z-index: 1;
+}
+.factory {
+    margin-top: 40px;
+}
+.factoryrow {
+    position: relative;
+    right: 300px;
+    background: #ffffff;
+    padding: 20px;
+    width: 900px;
+    margin-top: 0;
+}
+.textfactory {
+    border-left: 1px solid #000000;
+    padding: 20px;
+}
+.textelen {
+    border: 2px solid #ffffff;
+    margin-top: 140px;
+    padding: 35px;
+    position: relative;
+    right: 100px;
+    width: 900px;
+}
+.textpartner {
+    border: 2px solid #ffffff;
+    margin-top: 100px;
+    padding: 35px;
+    position: relative;
+    left: 100px;
+}
+.textcontact {
+    padding: 50px;
+    width: 600px;
+    text-align: center;
+    margin: 20px auto;
+    border: 2px solid #ffffff;
+}
+p.contacts {
+    font-weight: 600;
+}
+.contact {
+    background: #f1f1f3;
+}
+@media screen and (max-width: 1824px){
+    h1 {
+        font-size: 30px;
+    }
+    .textodm {
+        width: auto;
+    }
+    .factoryrow {
+        width: auto;
+        right: 250px;
+        padding: 10px;
+        margin-top: -5px;
+    }
+    .textcontact {
+        width: auto;
+    }
+    .textelen {
+        width: auto;
+    }
+    .textoem{
+        width: auto;
+    }
+    .oem {
+        font-size: 120px;
+        margin-top: 60px;
+    }
+    .odm {
+        font-size: 120px;
+        margin-top: 60px;
+    }
+    .texttwo {
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width: 1600px){
+    body {
+        font-size: 12px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    .textfactory{
+        padding: 10px;
+        margin-top: 5px;
+    }
+    .textelen {
+        right: 40px;
+    }
+    .textpartner {
+        left: 40px;
+    }
+}
+@media screen and (max-width: 1280px){
+    body {
+        font-size: 12px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    .textfactory {
+        padding: 0px;
+
+    }
+    .factoryrow {
+        margin-top: -15px;
+    }
+}
+@media screen and (max-width: 1024px){
+    .factoryrow {
+        right: 0;
+        text-align: center;
+    }
+    .factoryrow p {
+        border: none;
+    }
+    .ourfactory {
+        text-align: center;
+    }
+    .textoem {
+        width: auto;
+        margin: 20px 0;
+        padding: 20px 0;
+    }
+    .textodm {
+        width: auto;
+        margin: 0;
+        padding: 20px;
+    }
+    .textelen {
+        width: auto;
+        right: 0;
+        text-align: center;
+    }
+    .textpartner {
+        left: 0;
+        text-align: center;
+    }
+    .imgelegance {
+        margin: 0 auto;
+        float: none;
+    }
+    .text {
+        right: 0;
+    }
+    .odm {
+        left: 0;
+        text-align: center;
+        display: none;
+    }
+    .oem {
+        text-align: center;
+        right: 0;
+        display: none;
+    }
+    .sweater {
+        text-align: center;
+    }
+    .texttwo {
+        text-align: center;
+        padding: 0;
+    }
+}
