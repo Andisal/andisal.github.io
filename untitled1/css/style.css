@@ -193,6 +193,10 @@ a.logo {
 p.contacts {
     font-weight: 600;
 }
+.contacts a {
+    font-weight: 600;
+    color: #000000;
+}
 .contact {
     background: #f1f1f3;
     width: 98%;
