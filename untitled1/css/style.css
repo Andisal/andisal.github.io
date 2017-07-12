@@ -71,6 +71,9 @@ a.logo {
 .imgelegance {
     float: right;
 }
+.imgconctact {
+    margin-top: 120px;
+}
 .text {
     border: 2px solid #ffffff;
     margin: 20px;
@@ -163,16 +166,16 @@ a.logo {
 }
 .textpartner {
     border: 2px solid #ffffff;
-    margin-top: 100px;
+    margin-top: 140px;
     padding: 35px;
     position: relative;
     left: 100px;
 }
 .textcontact {
     padding: 50px;
-    width: 600px;
+    width: 700px;
     text-align: center;
-    margin: 20px auto;
+    margin: 20px 400px;
     border: 2px solid #ffffff;
 }
 .navbar-bot {
@@ -202,6 +205,11 @@ p.contacts {
     width: 98%;
     margin: 0 auto;
 }
+.pinkblock {
+    position: relative;
+    left: 665px;
+    width: 1200px
+}
 @media screen and (max-width: 1824px){
     h1 {
         font-size: 30px;
@@ -216,10 +224,14 @@ p.contacts {
         margin-top: -5px;
     }
     .textcontact {
-        width: auto;
+        width: 550px;
+        margin-left: 320px;
     }
     .textelen {
         width: auto;
+    }
+    .pinkblock {
+        width: 1030px;
     }
     .textoem{
         width: auto;
@@ -253,6 +265,13 @@ p.contacts {
     .textpartner {
         left: 40px;
     }
+    .pinkblock {
+        left: 690px;
+        width: 800px;
+    }
+    .textcontact {
+        margin-left: 120px;
+    }
 }
 @media screen and (max-width: 1280px){
     body {
@@ -273,6 +292,22 @@ p.contacts {
     }
     p {
         font-size: 10px;
+    }
+    .pinkblock {
+        left: 443px;
+        width: 800px;
+    }
+    .textcontact {
+        margin-left: 220px;
+    }
+}
+@media screen and (max-width: 1100px){
+    .pinkblock {
+        left: 265px;
+    }
+    .textcontact {
+        width: 500px;
+        margin-left: 270px;
     }
 }
 @media screen and (max-width: 1024px){
@@ -308,6 +343,7 @@ p.contacts {
     .textpartner {
         left: 0;
         text-align: center;
+        margin-bottom: 40px;
     }
     .imgelegance {
         margin: 0 auto;
@@ -341,5 +377,35 @@ p.contacts {
     }
     .odmblock {
         padding: 10px;
+    }
+    .rights {
+        margin-top: 40px;
+    }
+    .pinkblock {
+        left: 420px;
+        margin-top: 420px;
+        padding: 10px;
+    }
+    .textcontact {
+        margin: 0 auto;
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .pinkblock {
+        left: 0;
+        margin: 400px auto 20px auto;
+        width: auto;
+    }
+    .imgconctact {
+        margin-top: 20px;
+    }
+    .textcontact {
+        width: auto;
+    }
+}
+@media screen and (max-width: 800px) {
+    .nav>li>a {
+        padding: 2px 15px;
     }
 }
