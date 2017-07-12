@@ -298,6 +298,7 @@ p.contacts {
     }
     .elegance {
         margin-top: 20px;
+        padding: 15px;
     }
     .textelen {
         width: auto;
@@ -330,9 +331,15 @@ p.contacts {
     }
     .texttwo {
         text-align: center;
-        padding: 0;
+        padding: 10px;
     }
     .row {
         margin-top: 20px;
+    }
+    .oemblock {
+        padding: 10px;
+    }
+    .odmblock {
+        padding: 10px;
     }
 }
