@@ -381,13 +381,11 @@ p.contacts {
     }
     .odm {
         left: 0;
-        text-align: center;
-        display: none;
+        margin: 0 auto;
     }
     .oem {
-        text-align: center;
-        right: 0;
-        display: none;
+      right: 0;
+      margin: 0 auto;
     }
     .sweater {
         text-align: center;
