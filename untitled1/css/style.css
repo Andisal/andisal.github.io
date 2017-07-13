@@ -431,6 +431,7 @@ p.contacts {
     .texttwo {
       margin-top: 20px
     }
+
 }
 @media screen and (max-width: 800px) {
     .nav>li>a {
@@ -441,5 +442,8 @@ p.contacts {
     }
     .imgconctact {
       margin-top: 0;
+    }
+    .pinkblock {
+      margin-top: 190px;
     }
 }
