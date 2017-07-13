@@ -1,6 +1,7 @@
 @font-face {
     font-family: "Open Sans";
     src: url(fonts/OPENSANS-LIGHT.ttf);
+    font-weight: 300;
 }
 @font-face {
     font-family: "Open Sans";
@@ -32,6 +33,7 @@ body {
     font-family: "Open Sans";
     background: #ffffff;
     color: #4b4b4d;
+    font-weight: 300;
 }
 p {
   font-size: 15px;
