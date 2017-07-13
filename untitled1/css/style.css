@@ -439,4 +439,7 @@ p.contacts {
     p{
       font-size: 10px
     }
+    .imgconctact {
+      margin-top: 0;
+    }
 }
