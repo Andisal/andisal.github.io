@@ -33,6 +33,9 @@ body {
     background: #ffffff;
     color: #4b4b4d;
 }
+p {
+  font-size: 18px
+}
 h1 {
     font-family: "Bodoni-Book";
     font-size: 40px;
@@ -155,6 +158,7 @@ a.logo {
 .textfactory {
     border-left: 1px solid #000000;
     padding: 20px;
+    font-size: 15px
 }
 .textelen {
     border: 2px solid #ffffff;
@@ -208,11 +212,16 @@ p.contacts {
 .pinkblock {
     position: relative;
     left: 665px;
-    width: 1200px
+    width: 1200px;
+}
+.founder {
+  margin-top: 90px;
 }
 @media screen and (max-width: 1824px){
     h1 {
         font-size: 30px;
+    }
+    p {
     }
     .textodm {
         width: auto;
@@ -221,7 +230,6 @@ p.contacts {
         width: auto;
         right: 250px;
         padding: 10px;
-        margin-top: -5px;
     }
     .textcontact {
         width: 550px;
@@ -229,6 +237,7 @@ p.contacts {
     }
     .textelen {
         width: auto;
+        right: 30px
     }
     .pinkblock {
         width: 1030px;
@@ -250,7 +259,6 @@ p.contacts {
 }
 @media screen and (max-width: 1600px){
     body {
-        font-size: 12px;
     }
     h1{
         font-size: 25px;
@@ -258,9 +266,10 @@ p.contacts {
     .textfactory{
         padding: 10px;
         margin-top: 5px;
+        font-size: 14px
     }
     .textelen {
-        right: 40px;
+        right: 20px;
     }
     .textpartner {
         left: 40px;
@@ -275,23 +284,20 @@ p.contacts {
 }
 @media screen and (max-width: 1280px){
     body {
-        font-size: 12px;
+        font-size: 11px;
     }
     h2 {
         font-size: 22px;
     }
     .textfactory {
-        padding: 0px;
-
+        padding-left: : 4px;
+        font-size: 12px;
     }
-    .factoryrow {
-        margin-top: -15px;
+    .factory {
+      margin-top: 25px;
     }
     .elegance {
         margin-top: 40px;
-    }
-    p {
-        font-size: 10px;
     }
     .pinkblock {
         left: 443px;
@@ -308,6 +314,12 @@ p.contacts {
     .textcontact {
         width: 500px;
         margin-left: 270px;
+    }
+    .factory {
+      margin-top: 20px;
+    }
+    .textfactory {
+      font-size: 9px;
     }
 }
 @media screen and (max-width: 1024px){
