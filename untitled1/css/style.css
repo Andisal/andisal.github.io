@@ -475,12 +475,13 @@ p.contacts {
 @media screen and (max-width: 800px) {
     .nav>li>a {
         padding: 2px 15px;
+        margin-top: 10px;
     }
     .nav>li {
       display: inline-block;
     }
     p{
-      font-size: 10px
+      font-size: 11px;
     }
     .imgconctact {
       margin-top: 0;
