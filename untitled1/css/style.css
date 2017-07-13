@@ -291,7 +291,7 @@ p.contacts {
       margin-top: 80px;
     }
     .texttwo {
-      margin-top: -20px;
+      margin-top: 20px;
     }
 }
 @media screen and (max-width: 1280px){
@@ -332,6 +332,9 @@ p.contacts {
     }
     .textfactory {
       font-size: 9px;
+    }
+    .texttwo {
+      margin-top: -20px;
     }
 }
 @media screen and (max-width: 1024px){
@@ -426,6 +429,9 @@ p.contacts {
     }
     .textcontact {
         width: auto;
+    }
+    .texttwo {
+      margin-top: 20px
     }
 }
 @media screen and (max-width: 800px) {
