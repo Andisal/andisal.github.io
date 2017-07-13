@@ -34,7 +34,7 @@ body {
     color: #4b4b4d;
 }
 p {
-  font-size: 18px
+  font-size: 15px;
 }
 h1 {
     font-family: "Bodoni-Book";
@@ -219,7 +219,7 @@ p.contacts {
 }
 @media screen and (max-width: 1824px){
     h1 {
-        font-size: 30px;
+        font-size: 34px;
     }
     p {
     }
@@ -261,7 +261,7 @@ p.contacts {
     body {
     }
     h1{
-        font-size: 25px;
+        font-size: 30px;
     }
     .textfactory{
         padding: 10px;
@@ -280,6 +280,16 @@ p.contacts {
     }
     .textcontact {
         margin-left: 120px;
+    }
+    .textoem {
+      margin: 20px 60px 20px 0px;
+    }
+    .oem {
+      right: 80px;
+      margin-top: 80px;
+    }
+    .texttwo {
+      margin-top: -20px;
     }
 }
 @media screen and (max-width: 1280px){
@@ -419,5 +429,8 @@ p.contacts {
 @media screen and (max-width: 800px) {
     .nav>li>a {
         padding: 2px 15px;
+    }
+    p{
+      font-size: 10px
     }
 }
