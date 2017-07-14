@@ -71,6 +71,7 @@ a.logo {
 .main{
     margin: 0 auto;
     background: #f5f5f5;
+    width: 98%;
 }
 .elegance {
     background: #ffe1e3;
@@ -78,9 +79,13 @@ a.logo {
 }
 .imgelegance {
     float: right;
+    right: 20px;
+    position: relative;
 }
 .imgconctact {
     margin-top: 120px;
+    right : 34px;
+    position: relative;
 }
 .text {
     border: 2px solid #ffffff;
@@ -115,6 +120,9 @@ a.logo {
 }
 .author {
     opacity: 0.8;
+}
+.factoryimg {
+  right: 34px;
 }
 .row {
     margin-top: 60px;
@@ -231,14 +239,21 @@ p.contacts {
 .contact {
     background: #f1f1f3;
     margin: 0 auto;
+    width: 98%;
 }
 .pinkblock {
     position: relative;
-    left: 700px;
+    left: 684px;
     width: 1200px;
 }
 .founder {
   margin-top: 90px;
+}
+.oemblock {
+  right: 20px;
+}
+.odmblock {
+  left: 19px;
 }
 @media screen and (max-width: 1824px){
     h1 {
@@ -263,7 +278,7 @@ p.contacts {
         right: 30px
     }
     .pinkblock {
-        width: 1030px;
+        width: 1029px;
     }
     .textoem{
         width: auto;
@@ -278,6 +293,9 @@ p.contacts {
     }
     .texttwo {
         margin-top: 40px;
+    }
+    .odmblock {
+      left: 17px;
     }
 }
 @media screen and (max-width: 1600px){
@@ -298,7 +316,7 @@ p.contacts {
         left: 40px;
     }
     .pinkblock {
-        left: 722px;
+        left: 707px;
         width: 800px;
     }
     .textcontact {
@@ -315,6 +333,9 @@ p.contacts {
       margin-top: 20px;
       padding-left: 100px;
       left: -90px;
+    }
+    .odmblock {
+      left: 15px;
     }
 }
 @media screen and (max-width: 1280px){
@@ -335,8 +356,8 @@ p.contacts {
         margin-top: 40px;
     }
     .pinkblock {
-        left:  468px;
-        width: 800px;
+      left: 429px;
+      width: 827px;
     }
     .textcontact {
         margin-left: 220px;
@@ -347,6 +368,9 @@ p.contacts {
     p{
       font-size: 14px;
     }
+    .odmblock {
+      left: 13px;
+    }
 }
 @media screen and (max-width: 1100px){
     h1 {
@@ -356,7 +380,7 @@ p.contacts {
       font-size: 20px;
     }
     .pinkblock {
-        left: 285px;
+        left: 249px;
     }
     .textcontact {
         width: 500px;
@@ -376,6 +400,9 @@ p.contacts {
     }
     .texttwo p {
       font-size: 10px;
+    }
+    .odmblock {
+      left: 11px;
     }
 }
 @media screen and (max-width: 1024px){
@@ -456,6 +483,9 @@ p.contacts {
         margin: 0 auto;
         padding: 10px;
     }
+    .odmblock {
+      left: 0px;
+    }
 }
 @media screen and (max-width: 1000px){
     .pinkblock {
@@ -473,7 +503,15 @@ p.contacts {
       margin-top: 20px;
       left: 0;
     }
-
+    .factoryimg {
+      right: 0;
+    }
+    .oemblock {
+      right: 0;
+    }
+    .imgelegance{
+      right: 0;
+    }
 }
 @media screen and (max-width: 800px) {
     .nav>li>a {
