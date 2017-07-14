@@ -607,12 +607,13 @@ p.contacts {
     }
     .odm {
         left: 0;
-        margin: 40px auto;
+        margin: 20px auto;
+        bottom: 30px;
     }
     .oem {
       right: 0;
       margin: 20px auto;
-      bottom: 153px;
+      bottom: 223px;
     }
     .sweater {
         text-align: center;
