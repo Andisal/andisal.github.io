@@ -76,6 +76,9 @@ a.logo {
 .elegance {
     background: #ffe1e3;
     margin-top: 80px;
+    position: absolute;
+    left: 446px;
+    width: 1438px;
 }
 .imgelegance {
     float: right;
@@ -297,6 +300,10 @@ p.contacts {
     .odmblock {
       left: 17px;
     }
+    .elegance {
+      left: 404px;
+      width: 1309px;
+    }
 }
 @media screen and (max-width: 1600px){
     body {
@@ -314,6 +321,10 @@ p.contacts {
     }
     .textpartner {
         left: 40px;
+    }
+    .elegance {
+      left: 353px;
+      width: 1154px;
     }
     .pinkblock {
         left: 707px;
@@ -354,6 +365,8 @@ p.contacts {
     }
     .elegance {
         margin-top: 40px;
+        left: 290px;
+        width: 966px;
     }
     .pinkblock {
       left: 429px;
@@ -389,6 +402,11 @@ p.contacts {
     .factory {
       margin-top: 20px;
     }
+    .elegance {
+      margin-top: 19px;
+      left: 246px;
+      width: 830px;
+    }
     .textfactory {
       font-size: 9px;
     }
@@ -420,6 +438,11 @@ p.contacts {
         width: auto;
         margin: 20px 0;
         padding: 20px 0;
+    }
+    .elegance {
+      position: relative;
+      left: 0;
+      width: auto;
     }
     .textodm {
         width: auto;
