@@ -134,12 +134,12 @@ a.logo {
     text-align: right;
 }
 .texttwo {
-    margin-top: 60px;
+    margin-top: 46px;
     border: 2px solid #ffffff;
-    padding-left: 300px;
-  position: relative;
-  padding-right: 20px;
-  left: -140px;
+    padding-left: 414px;
+    position: relative;
+    padding-right: 20px;
+    left: -347px;
 }
 .textabout {
     border-left: 2px solid #ffffff;
@@ -157,7 +157,7 @@ a.logo {
     margin-right: 50px;
 }
 .oem {
-    margin-top: 10px;
+    margin-top: 40px;
     position: relative;
     right: 120px;
 }
@@ -196,19 +196,22 @@ a.logo {
     font-size: 15px
 }
 .textelen {
-    border: 2px solid #ffffff;
-    margin-top: 140px;
-    padding: 35px;
-    position: relative;
-    right: 100px;
-    width: 900px;
+  border: 2px solid #ffffff;
+  margin-top: 107px;
+  padding: 35px;
+  position: relative;
+  right: 214px;
+  width: 1064px;
+  padding-left: 210px;
 }
 .textpartner {
     border: 2px solid #ffffff;
     margin-top: 140px;
     padding: 35px;
     position: relative;
-    left: 100px;
+    left: 232px;
+    padding-right: 163px;
+    z-index: 1;
 }
 .textcontact {
     padding: 50px;
@@ -276,9 +279,12 @@ p.contacts {
         width: 550px;
         margin-left: 320px;
     }
+    .textpartner {
+      left: 210px;
+    }
     .textelen {
         width: auto;
-        right: 30px
+        right: 191px;
     }
     .pinkblock {
         width: 1029px;
@@ -304,6 +310,10 @@ p.contacts {
       left: 404px;
       width: 1309px;
     }
+    .texttwo {
+      left: -311px;
+      margin-top: 20px;
+    }
 }
 @media screen and (max-width: 1600px){
     body {
@@ -317,10 +327,10 @@ p.contacts {
         font-size: 14px
     }
     .textelen {
-        right: 20px;
+        right: 156px;
     }
     .textpartner {
-        left: 40px;
+        left: 167px;
     }
     .elegance {
       left: 353px;
@@ -347,6 +357,11 @@ p.contacts {
     }
     .odmblock {
       left: 15px;
+    }
+    .texttwo {
+      margin-top: 16px;
+      padding-left: 248px;
+      left: -221px;
     }
 }
 @media screen and (max-width: 1280px){
@@ -377,12 +392,20 @@ p.contacts {
     }
     .texttwo {
       margin-top: 10px;
+      padding-left: 190px;
+      left: -190px;
+    }
+    .textpartner {
+      left: 132px;
     }
     p{
       font-size: 14px;
     }
     .odmblock {
       left: 13px;
+    }
+    .textelen {
+      right: 116px;
     }
 }
 @media screen and (max-width: 1100px){
@@ -421,6 +444,9 @@ p.contacts {
     }
     .odmblock {
       left: 11px;
+    }
+    .textelen {
+      right: 95px;
     }
 }
 @media screen and (max-width: 1024px){
