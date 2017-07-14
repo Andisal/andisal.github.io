@@ -550,6 +550,9 @@ p.contacts {
     .textelen {
       right: 95px;
     }
+    .btns {
+      font-size: 15px;
+    }
 }
 @media screen and (max-width: 1024px){
     .factoryrow {
@@ -693,4 +696,28 @@ p.contacts {
     .pinkblock {
       margin-top: 190px;
     }
+    .elegance {
+      height: 580px;
+      bottom: 20px;
+      width: 96%;
+      margin: 20px auto;
+    }
+    .imgelegance {
+      position: absolute;
+      z-index: 1;
+      height: 300px;
+      left: 0;
+      top: 20px;
+    }
+    .text {
+      top: 308px;
+    }
+    .btns {
+      font-size: 15px;
+    }
+}
+@media screen and (max-width: 400px){
+  .elegance {
+    height: 620px;
+  }
 }
