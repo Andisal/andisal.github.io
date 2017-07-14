@@ -360,6 +360,9 @@ p.contacts {
 .odmblock {
   left: 19px;
 }
+.imglastchick {
+  margin-bottom: 100px;
+}
 @media screen and (max-width: 1824px){
     h1 {
         font-size: 34px;
@@ -578,17 +581,22 @@ p.contacts {
         margin-top: 20px;
         padding: 15px;
     }
+    .imglastchick {
+      margin-bottom: 30px;
+    }
     .textelen {
         width: auto;
         right: 0;
         text-align: center;
         padding-left: 20px;
+        margin-top: 30px;
     }
     .textpartner {
         left: 0;
         text-align: center;
         margin-bottom: 40px;
         padding-right: 20px;
+        margin-top: 30px;
     }
     .imgelegance {
         margin: 0 auto;
@@ -604,6 +612,7 @@ p.contacts {
     .oem {
       right: 0;
       margin: 0 auto;
+      bottom: 206px;
     }
     .sweater {
         text-align: center;
@@ -617,6 +626,7 @@ p.contacts {
     }
     .oemblock {
         padding: 10px;
+        top: 228px;
     }
     .odmblock {
         padding: 10px;
@@ -626,7 +636,7 @@ p.contacts {
     }
     .pinkblock {
         left: 420px;
-        margin-top: 420px;
+        margin-top: 300px;
         padding: 10px;
     }
     .textcontact {
@@ -643,7 +653,7 @@ p.contacts {
 @media screen and (max-width: 1000px){
     .pinkblock {
         left: 0;
-        margin: 400px auto 20px auto;
+        margin: 300px auto 20px auto;
         width: auto;
     }
     .imgconctact {
