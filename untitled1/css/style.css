@@ -197,7 +197,7 @@ div.highlightTextOut a:before, div.highlightTextIn a:before
     padding: 10px;
     overflow: hidden;
     content: attr(alt);
-    transition: all 0.3s;
+    transition: all 0.7s;
     transform: scale(0.8);
     opacity: 0;
 }
