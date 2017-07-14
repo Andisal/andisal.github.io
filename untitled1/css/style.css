@@ -565,11 +565,13 @@ p.contacts {
         width: auto;
         right: 0;
         text-align: center;
+        padding-left: 20px;
     }
     .textpartner {
         left: 0;
         text-align: center;
         margin-bottom: 40px;
+        padding-right: 20px;
     }
     .imgelegance {
         margin: 0 auto;
@@ -616,6 +618,9 @@ p.contacts {
     }
     .odmblock {
       left: 0px;
+    }
+    .imgconctact {
+      right: 0;
     }
 }
 @media screen and (max-width: 1000px){
