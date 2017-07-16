@@ -77,7 +77,7 @@ a.logo {
     background: #ffe1e3;
     margin-top: 80px;
     position: absolute;
-    left: 446px;
+    left: 465px;
     width: 1438px;
 }
 .imgelegance {
@@ -363,6 +363,12 @@ p.contacts {
 .imglastchick {
   margin-bottom: 100px;
 }
+.sm-block {
+  background: #ffe1e3;
+  padding: 10px;
+  width: 98%;
+  margin: 5px 6px;
+}
 @media screen and (max-width: 1824px){
     h1 {
         font-size: 34px;
@@ -409,7 +415,7 @@ p.contacts {
       left: 17px;
     }
     .elegance {
-      left: 404px;
+      left: 421px;
       width: 1309px;
     }
     .texttwo {
@@ -435,7 +441,7 @@ p.contacts {
         left: 167px;
     }
     .elegance {
-      left: 353px;
+      left: 368px;
       width: 1154px;
     }
     .pinkblock {
@@ -482,8 +488,8 @@ p.contacts {
     }
     .elegance {
         margin-top: 40px;
-        left: 290px;
-        width: 966px;
+        left: 303px;
+        width: 965px;
     }
     .pinkblock {
       left: 429px;
@@ -529,7 +535,7 @@ p.contacts {
     }
     .elegance {
       margin-top: 19px;
-      left: 246px;
+      left: 257px;
       width: 830px;
     }
     .textfactory {
@@ -549,6 +555,9 @@ p.contacts {
     }
     .textelen {
       right: 95px;
+    }
+    .sm-block {
+      margin: 5px 8px;
     }
 }
 @media screen and (max-width: 1024px){
@@ -693,5 +702,21 @@ p.contacts {
     }
     .pinkblock {
       margin-top: 190px;
+    }
+    div.highlightTextOut a:before, div.highlightTextIn a:before
+    {
+        position: absolute;
+        color: black;
+        top: -8px;
+        left: 5px;
+        padding: 10px;
+        overflow: hidden;
+        content: attr(alt);
+        transition: all 0.7s;
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    .sm-block {
+      margin: 5px 6px;
     }
 }
