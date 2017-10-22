@@ -1,0 +1,44 @@
+
+.speakers{ 
+    min-height: 0;
+}
+footer {
+    min-height: 0;
+}
+.plat-partners .logos-prtnrs {
+    border: none;
+}
+.info-partners .h1-prtnrs h1{
+    text-align: center;
+}
+.plat-partners .logos-prtnrs .bottom-infprtnrs {
+    text-align: center;
+}
+.h3accept{
+    margin-top: 100px;
+    color: #ffffff;
+}
+.place .map-wrap h3 {
+    text-transform: none;
+}
+.place .map-wrap .map {
+    margin-top: 100px;
+}
+.bot-ordr .forms .politics {
+    text-align: center;
+}
+.countdown {
+    text-align: center;
+    margin: 20px 0px 40px 0px;
+    color: #ffffff;
+}
+.h1-speakers h1 {
+    font-size: 65px;
+    letter-spacing: 3px;
+    color: #1e5799;
+}
+.about .ab-icons img {
+    width: 390px;
+    height: 132px;
+    margin-left: 46px;
+}
