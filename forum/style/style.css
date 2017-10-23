@@ -37,8 +37,11 @@ footer {
     letter-spacing: 3px;
     color: #1e5799;
 }
-.about .ab-icons img {
-    width: 390px;
-    height: 132px;
-    margin-left: 46px;
+.header-wrap .header-info h2 {
+    border:  none;
+}
+@media (min-width: 1200px){
+    .container {
+        width: 1170px;
+    }
 }
