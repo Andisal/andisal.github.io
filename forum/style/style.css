@@ -58,3 +58,19 @@ footer {
 .header-wrap h1 {
     font-size: 47px;
 }
+.register {
+    background: #fc039b;
+    padding: 5px 15px;
+    border-radius: 20px;
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
+}
+.main-head .top-line ul li a.register:hover {
+    color: #ffffff;
+    background: #1e5799;
+}
+.mailinfo {
+    position: absolute;
+    right: 213px;
+    bottom: -2px;
+}
