@@ -42,6 +42,7 @@ footer {
 }
 .header-wrap .header-info h2 {
     border:  none;
+    padding: 0;
 }
 @media (min-width: 1200px){
     .container {
@@ -54,6 +55,6 @@ footer {
 .sl {
     display: -webkit-inline-box;
 }
-.infpart {
-    margin: 10px;
+.header-wrap h1 {
+    font-size: 47px;
 }
