@@ -30,10 +30,10 @@ $(document).ready(function(){
             },
             statusCode: { 
                 0: function (){ 
-                	form.html('<p>РЕГИСТРАЦИЯ НА IGCONF</p><h3 class="h3accept">Ваша завка отправлена организаторам</h3>'); 
+                	form.html('<p>Ваша заявка <br> отправлена</p><i class="fa fa-check fa-3x" aria-hidden="true"></i>'); 
                 },
                 200: function (){
-                	form.html('<p>РЕГИСТРАЦИЯ НА IGCONF</p><h3 class="h3accept">Ваша завка отправлена организаторам</h3>'); 
+                	form.html('<p>Ваша заявка <br> отправлена</p><i class="fa fa-check fa-3x" aria-hidden="true"></i>'); 
                 }
             }
 		});

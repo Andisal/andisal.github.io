@@ -2,6 +2,9 @@
 .speakers{ 
     min-height: 0;
 }
+.about {
+    margin-top: 0;
+}
 footer {
     min-height: 0;
 }
@@ -44,4 +47,13 @@ footer {
     .container {
         width: 1170px;
     }
+}
+.plat-partners .logos-prtnrs .bottom-infprtnrs a {
+    margin-left: 0;
+}
+.sl {
+    display: -webkit-inline-box;
+}
+.infpart {
+    margin: 10px;
 }
