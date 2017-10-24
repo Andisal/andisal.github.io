@@ -86,4 +86,24 @@ footer {
         top: 116px;
         left: 0;
     }
+    .h1-speakers h1 {
+        font-size: 50px;
+    }
+    .main-head .phone-wrap .phone {
+        font-size: 15px;
+    }
+    .bot-ordr .forms {
+        padding-left: 0;
+    }
+    .mailinfo {
+        top: -1px;
+    }
+}
+@media only screen and (max-width: 460px){
+    .mailinfo {
+        display: none;
+    }
+}
+.img-responsive {
+    width: 80px;
 }
