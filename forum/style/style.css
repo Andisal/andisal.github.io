@@ -107,3 +107,6 @@ footer {
 .img-responsive {
     width: 80px;
 }
+.about .ab-icons img {
+    width: auto;
+}
