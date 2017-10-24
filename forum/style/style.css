@@ -74,3 +74,16 @@ footer {
     right: 213px;
     bottom: -2px;
 }
+.header-wrap .header-forms {
+    top: 65px;
+}
+.header-wrap .header-info {
+    top: 116px;
+    left: -493px;
+}
+@media only screen and (max-width: 1199px){
+    .header-wrap .header-info {
+        top: 116px;
+        left: 0;
+    }
+}
