@@ -99,14 +99,19 @@ footer {
         top: -1px;
     }
 }
-@media only screen and (max-width: 460px){
-    .mailinfo {
-        display: none;
-    }
-}
 .img-responsive {
     width: 80px;
 }
 .about .ab-icons img {
     width: auto;
+}
+@media only screen and (max-width: 780px){
+    .about .ab-icons img {
+        width: 300px;
+    }
+}
+@media only screen and (max-width: 460px){
+    .mailinfo {
+        display: none;
+    }
 }
