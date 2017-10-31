@@ -204,3 +204,30 @@ header {
         margin-top: 5px;
     }
 }
+@media only screen and (max-width: 350px){
+    .single_count {
+        max-width: 50px;
+        max-height: 50px;
+    }
+    .single_count h1{
+        font-size: 20px;
+        margin-top: 8px;
+        line-height: 15px;
+    }
+    .single_count p{
+        font-size: 7px;
+        margin-top: 5px;
+    }
+    .info h1 {
+        font-size: 30px;
+    }
+    .info h2 {
+        font-size: 20px;
+    }
+    .button-wrap a {
+        padding: 10px 10px;
+    }
+    .info-reg h1 {
+        font-size: 30px;
+    }
+}
