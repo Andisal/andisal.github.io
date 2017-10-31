@@ -89,7 +89,7 @@ header {
 
 .single_count p {
 	color: #ffffff;
-	margin: 0
+	margin: 0;
 }
 .bot-ordr {
     padding: 60px 0 45px;
@@ -169,4 +169,38 @@ header {
 }
 .forms .button-wraps {
     margin-top: 17px;
+}
+@media only screen and (max-width: 780px){
+    .info h1 {
+        font-size: 40px;
+    }
+    .single_count {
+        max-width: 70px;
+        max-height: 70px;
+        margin-bottom: 20px;
+    }
+    .single_count h1{
+        font-size: 25px;
+        margin-top: 5px;
+        line-height: 30px;
+    }
+    .single_count p{
+        font-size: 10px;
+        margin-top: 5px;
+    }
+}
+@media only screen and (max-width: 480px){
+    .single_count {
+        max-width: 65px;
+        max-height: 65px;
+    }
+    .single_count h1{
+        font-size: 25px;
+        margin-top: 5px;
+        line-height: 25px;
+    }
+    .single_count p{
+        font-size: 10px;
+        margin-top: 5px;
+    }
 }
