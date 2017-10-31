@@ -4,7 +4,7 @@ jQuery(document).ready(function ($) {
         //countdown timer
     
         $('.count_down').countdown('2017/12/08', function (event) {
-            $(this).html(event.strftime('<div class="single_count"><h1>%D</h1><p>Days</p></div><div class="single_count"><h1>%H</h1><p>Hour</p></div><div class="single_count"><h1>%M</h1><p>Minute</p></div><div class="single_count"><h1>%S</h1><p>Secound</p></div>'));
+            $(this).html(event.strftime('<div class="single_count"><h1>%D</h1><p>Дней</p></div><div class="single_count"><h1>%H</h1><p>Часов</p></div><div class="single_count"><h1>%M</h1><p>Минут</p></div><div class="single_count"><h1>%S</h1><p>Секунд</p></div>'));
         });
 });
 !function($){
