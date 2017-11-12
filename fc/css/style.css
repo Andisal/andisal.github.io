@@ -78,5 +78,9 @@ h2 {
     text-align: center;
 }
 a {
-    color: #ffffff;
+    color: #959595;
+    text-decoration: underline;
+}
+.politics {
+    color: #959595;
 }
