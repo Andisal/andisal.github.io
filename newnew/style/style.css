@@ -1,0 +1,41 @@
+
+.h1-speakers h1 {
+    font-size: 65px;
+    letter-spacing: 3px;
+    color: #1e5799;
+}
+.header-wrap .header-info h2 {
+    border:  none;
+    padding: 0;
+}
+.header-wrap h1 {
+    font-size: 47px;
+}
+.header-wrap .header-forms {
+    top: 65px;
+}
+.header-wrap .header-info {
+    top: 116px;
+    left: -493px;
+}
+@media only screen and (max-width: 1199px){
+    .header-wrap .header-info {
+        top: 116px;
+        left: 0;
+    }
+    .h1-speakers h1 {
+        font-size: 50px;
+    }
+    .main-head .phone-wrap .phone {
+        font-size: 15px;
+    }
+    .bot-ordr .forms {
+        padding-left: 0;
+    }
+    .mailinfo {
+        top: -1px;
+    }
+}
+@media only screen and (max-width: 740px){
+
+}
