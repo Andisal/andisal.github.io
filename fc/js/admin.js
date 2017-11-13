@@ -16,7 +16,7 @@
 
 		var data = form.serialize(); 
 		$.ajax({
-            url: "https://docs.google.com/forms/d/e/1FAIpQLSeELs6Tkg3DeYLtmUGOWMmyGj60h_BKfF2s0p-7jlrnvGRnnA/formResponse", 
+            url: "https://docs.google.com/forms/d/e/1FAIpQLSffYsRH5CHOyMHOVuDw88_W2BOfscmKVubf9LNBPQsKLHpwsA/formResponse", 
             data: data,
             type: "POST",
             dataType: "xml",
@@ -25,10 +25,10 @@
             },
             statusCode: { 
                 0: function (){ 
-                	form.html('<p>Ваша заявка <br> отправлена</p><i class="fa fa-check fa-3x" aria-hidden="true"></i>'); 
+                	form.html('<p class="accept">Ваша заявка <br> отправлена</p><i class="fa fa-check fa-3x" aria-hidden="true"></i>'); 
                 },
                 200: function (){
-                	form.html('<p>Ваша заявка <br> отправлена</p><i class="fa fa-check fa-3x" aria-hidden="true"></i>'); 
+                	form.html('<p class="accept">Ваша заявка <br> отправлена</p><i class="fa fa-check fa-3x" aria-hidden="true"></i>'); 
                 }
             }
 		});
