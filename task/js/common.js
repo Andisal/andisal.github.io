@@ -3,7 +3,7 @@ const hiddenItems = document.querySelectorAll('.item-hide');
 
 
 button.addEventListener('click', () => {
-    const textButton = button.innerText === 'See more ' ? 'See less ' : 'See more ';
+    const textButton = button.innerText === 'See more' ? 'See less' : 'See more';
     button.innerHTML = button.innerHTML.replace(button.innerText, textButton )
     toggleElemetns()
 })

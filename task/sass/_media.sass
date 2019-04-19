@@ -9,14 +9,16 @@
 
 @media only screen and (max-width : 769px)
 	.properties
-		margin: 0 20px
 		grid-template-columns: 1fr
 		.properties-item
-			text-align: center
 			&__content 
-				padding: 0px 5px
+				padding: 0px 20px
 			&__tag 
 				padding: 15px 16px 12px 14px
+
+			&:hover
+				img
+					transform: none
 
 		.button-more
 			grid-column: 1/2

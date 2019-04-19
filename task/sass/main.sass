@@ -1,29 +1,19 @@
 @import "vars"
 @import "fonts"
+@import "base"
+@import "normalize"
 
-
-@keyframes rotating-to
-    0% 
-        transform: rotate(45deg)
-    100% 
-        transform: rotate(135deg)
-
-*
-	box-sizing: border-box
-	&:before, &:after
-		box-sizing: border-box
-
-body
-	font-size: 16px
-	font-family: 'Open-Sans', sans-serif
-
+img
+    width: 100%
+    height: auto
+    
 .grid 
     display: grid
 
 .container 
     max-width: 1280px
     margin: 0 auto
-
+    
 
 .section-developments 
     h1 
@@ -31,33 +21,32 @@ body
         font-weight: bold
         font-size: 36px
         text-align: center
-        line-height: normal
-        letter-spacing: 1px
-        font-style: normal
-        margin-bottom: 36px
+        margin: 50px 0 36px 0
 
 .properties 
     grid-template-columns: repeat(3, 1fr)
     grid-gap: 22px
-    margin: 0px 50px
+    padding: 0 50px
 
 .properties-item 
     background-color: $item
     text-decoration: none
     border: 1px solid $border
+    &:hover
+        img
+            transform: scale(1.05) translateY(-6.5px)
 
     &__img 
         position: relative
-        img 
-            width: 100%
-            background-size: cover
-            background-position: center 
+        overflow: hidden
+        img
+            transition: transform .25s ease
     &__tag 
         color: $white
-        padding: 8px 10px 5px 11px
+        padding: 8px 12px
         position: absolute
-        bottom: 4px
-        right: 0px
+        bottom: 6px
+        right: 0
         font-weight: bold
         font-size: 12px
 
@@ -74,19 +63,19 @@ body
     &__content 
         h4 
             font-size: 20px
-            margin: 15px 0px 2px 0px
+            margin: 12px 0 2px 0
     
     &__address 
         font-size: 16px
-        margin-bottom: 15px
+        margin: 0
 
     &__price 
         font-size: 16px
-        margin-bottom: 17px
+        margin: 12px 0 10px 0
 
     &__shared
         font-size: 14px
-        margin-bottom: 17px
+        margin: 0 0 16px 0
         
 .item-hide
     position: absolute
@@ -106,7 +95,7 @@ body
         box-sizing: border-box
         border-radius: 25px
         background: $white
-        padding: 12px 25px
+        padding: 12px 27px
         font-weight: bold
         line-height: 24px
         letter-spacing: -0.3px
@@ -114,20 +103,24 @@ body
         cursor: pointer
         margin: 25px
         outline: none
-        &:hover .button-chevron::before
-            transform: rotate(135deg)
+        position: relative
+        min-width: 150px
+        transition: background 0.6s ease
+        &:hover
+            background-color: $border
+            span
+                transform: rotate(89deg)
+        span
+            content: ''
+            display: block
+            position: absolute
+            top: 17px
+            right: 20px
+            width: 8px
+            height: 17px
+            background: url(../../img/Chevron.svg) no-repeat
+            transition: all 0.6s ease
 
-.button-chevron::before
-    border-style: solid
-    border-width: 2px 2px 0 0
-    content: ''
-    display: inline-block
-    height: 10px
-    left: 10px
-    position: relative
-    transform: rotate(45deg)
-    transition: transform 0.25s
-    width: 10px
 
 
 
