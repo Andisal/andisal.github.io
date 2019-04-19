@@ -1,36 +1,31 @@
 @import "vars"
 
-/*==========  Desktop First  ==========*/
-
-/* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px)
 	/**/
 
-
-/* Medium Devices, Desktops */
 @media only screen and (max-width : 992px)
 	/**/
 
 
-/* Small Devices, Tablets */
 @media only screen and (max-width : 769px)
 	.properties
+		margin: 0 20px
 		grid-template-columns: 1fr
 		.properties-item
 			text-align: center
-			.properties-tag 
+			&__content 
+				padding: 0px 5px
+			&__tag 
 				padding: 15px 16px 12px 14px
 
 		.button-more
 			grid-column: 1/2
 
 
-/* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px)
-	.properties-tag 
+	.properties-item__tag 
 		font-size: 10px
 
 
-/* Custom, iPhone Retina */
 @media only screen and (max-width : 320px)
 	/**/
