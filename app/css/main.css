@@ -1,0 +1,173 @@
+@font-face {
+  font-family: 'Open-Sans', sans-serif;
+  src: url("https://fonts.googleapis.com/css?family=Open+Sans"); }
+
+@-webkit-keyframes rotating-to {
+  0% {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg); }
+  100% {
+    -webkit-transform: rotate(135deg);
+            transform: rotate(135deg); } }
+
+@keyframes rotating-to {
+  0% {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg); }
+  100% {
+    -webkit-transform: rotate(135deg);
+            transform: rotate(135deg); } }
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+  *:before, *:after {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+
+body {
+  font-size: 16px;
+  font-family: 'Open-Sans', sans-serif; }
+
+.grid {
+  display: grid; }
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto; }
+
+.section-developments h1 {
+  color: #45852D;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+  line-height: normal;
+  letter-spacing: 1px;
+  font-style: normal;
+  margin-bottom: 36px; }
+
+.properties {
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 22px;
+  margin: 0px 50px; }
+
+.properties-item {
+  background-color: #F8F8F8;
+  text-decoration: none;
+  border: 1px solid #D8D8D8; }
+  .properties-item__img {
+    position: relative; }
+    .properties-item__img img {
+      width: 100%;
+      -webkit-background-size: cover;
+              background-size: cover;
+      background-position: center; }
+  .properties-item__tag {
+    color: #FFFFFF;
+    padding: 8px 10px 5px 11px;
+    position: absolute;
+    bottom: 4px;
+    right: 0px;
+    font-weight: bold;
+    font-size: 12px; }
+  .properties-item .tag-blue {
+    background-color: #006F79; }
+  .properties-item .tag-orange {
+    background-color: #EC6608; }
+  .properties-item__content {
+    display: block;
+    padding-left: 20px;
+    color: #363636; }
+  .properties-item__content h4 {
+    font-size: 20px;
+    margin: 15px 0px 2px 0px; }
+  .properties-item__address {
+    font-size: 16px;
+    margin-bottom: 15px; }
+  .properties-item__price {
+    font-size: 16px;
+    margin-bottom: 17px; }
+  .properties-item__shared {
+    font-size: 14px;
+    margin-bottom: 17px; }
+
+.item-hide {
+  position: absolute;
+  left: -2000px;
+  -webkit-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s; }
+
+.item-shower {
+  position: relative;
+  left: 0; }
+
+.button-more {
+  grid-column: 1/4;
+  text-align: center; }
+  .button-more button {
+    border: 1px solid #D8D8D8;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-border-radius: 25px;
+            border-radius: 25px;
+    background: #FFFFFF;
+    padding: 12px 25px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: -0.3px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 25px;
+    outline: none; }
+    .button-more button:hover .button-chevron::before {
+      -webkit-transform: rotate(135deg);
+          -ms-transform: rotate(135deg);
+              transform: rotate(135deg); }
+
+.button-chevron::before {
+  border-style: solid;
+  border-width: 2px 2px 0 0;
+  content: '';
+  display: inline-block;
+  height: 10px;
+  left: 10px;
+  position: relative;
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transition: -webkit-transform 0.25s;
+  transition: -webkit-transform 0.25s;
+  -o-transition: transform 0.25s;
+  transition: transform 0.25s;
+  transition: transform 0.25s, -webkit-transform 0.25s;
+  width: 10px; }
+
+/*==========  Desktop First  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  /**/ }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  /**/ }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 769px) {
+  .properties {
+    grid-template-columns: 1fr; }
+    .properties .properties-item {
+      text-align: center; }
+      .properties .properties-item .properties-tag {
+        padding: 15px 16px 12px 14px; }
+    .properties .button-more {
+      grid-column: 1/2; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .properties-tag {
+    font-size: 10px; } }
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  /**/ }
