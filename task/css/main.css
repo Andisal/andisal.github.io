@@ -280,21 +280,21 @@ img {
   /**/ }
 
 @media only screen and (max-width: 769px) {
-  .properties {
+  .developments {
     grid-template-columns: 1fr; }
-    .properties .properties-item__content {
+    .developments .developments-item__content {
       padding: 0px 20px; }
-    .properties .properties-item__tag {
+    .developments .developments-item__tag {
       padding: 15px 16px 12px 14px; }
-    .properties .properties-item:hover img {
+    .developments .developments-item:hover img {
       -webkit-transform: none;
           -ms-transform: none;
               transform: none; }
-    .properties .button-more {
+    .developments .button-more {
       grid-column: 1/2; } }
 
 @media only screen and (max-width: 480px) {
-  .properties-item__tag {
+  .developments-item__tag {
     font-size: 10px; } }
 
 @media only screen and (max-width: 320px) {
