@@ -172,29 +172,29 @@ img {
   text-align: center;
   margin: 50px 0 36px 0; }
 
-.properties {
+.developments {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 22px;
   padding: 0 50px; }
 
-.properties-item {
+.developments-item {
   background-color: #F8F8F8;
   text-decoration: none;
   border: 1px solid #D8D8D8; }
-  .properties-item:hover img {
+  .developments-item:hover img {
     -webkit-transform: scale(1.05) translateY(-6.5px);
         -ms-transform: scale(1.05) translateY(-6.5px);
             transform: scale(1.05) translateY(-6.5px); }
-  .properties-item__img {
+  .developments-item__img {
     position: relative;
     overflow: hidden; }
-    .properties-item__img img {
+    .developments-item__img img {
       -webkit-transition: -webkit-transform .25s ease;
       transition: -webkit-transform .25s ease;
       -o-transition: transform .25s ease;
       transition: transform .25s ease;
       transition: transform .25s ease, -webkit-transform .25s ease; }
-  .properties-item__tag {
+  .developments-item__tag {
     color: #FFFFFF;
     padding: 8px 12px;
     position: absolute;
@@ -202,24 +202,22 @@ img {
     right: 0;
     font-weight: bold;
     font-size: 12px; }
-  .properties-item .tag-blue {
+  .developments-item .tag-blue {
     background-color: #006F79; }
-  .properties-item .tag-orange {
+  .developments-item .tag-orange {
     background-color: #EC6608; }
-  .properties-item__content {
+  .developments-item__content {
     display: block;
     padding-left: 20px;
     color: #363636; }
-  .properties-item__content h4 {
+  .developments-item__content h4 {
     font-size: 20px;
     margin: 12px 0 2px 0; }
-  .properties-item__address {
-    font-size: 16px;
+  .developments-item__address {
     margin: 0; }
-  .properties-item__price {
-    font-size: 16px;
+  .developments-item__price {
     margin: 12px 0 10px 0; }
-  .properties-item__shared {
+  .developments-item__shared {
     font-size: 14px;
     margin: 0 0 16px 0; }
 
@@ -248,7 +246,6 @@ img {
     font-weight: bold;
     line-height: 24px;
     letter-spacing: -0.3px;
-    font-size: 16px;
     cursor: pointer;
     margin: 25px;
     outline: none;
