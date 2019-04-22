@@ -9,6 +9,7 @@ img
     
 .grid 
     display: grid
+    display: -ms-grid
 
 .container 
     max-width: 1280px
@@ -26,15 +27,62 @@ img
 .developments 
     grid-template-columns: repeat(3, 1fr)
     grid-gap: 22px
+    -ms-grid-columns: 1fr 22px 1fr 22px 1fr
     padding: 0 50px
+
+.item-1 
+    -ms-grid-column: 1
+    -ms-grid-column-span: 1
+
+.item-2
+    -ms-grid-column: 3
+    -ms-grid-column-span: 1
+
+.item-3 
+    -ms-grid-column: 5
+    -ms-grid-column-span: 1
+
+.item-4
+    -ms-grid-row: 3
+    -ms-grid-column: 1
+    -ms-grid-column-span: 1
+
+.item-5
+    -ms-grid-row: 3
+    -ms-grid-column: 3
+    -ms-grid-column-span: 1
+
+.item-6
+    -ms-grid-row: 3
+    -ms-grid-column: 5
+    -ms-grid-column-span: 1
+
+.item-7
+    -ms-grid-row: 5
+    -ms-grid-column: 1
+    -ms-grid-column-span: 1
+
+.item-8
+    -ms-grid-row: 5
+    -ms-grid-column: 3
+    -ms-grid-column-span: 1
+
+.item-9
+    -ms-grid-row: 5
+    -ms-grid-column: 5
+    -ms-grid-column-span: 1
+
 
 .developments-item 
     background-color: $item
-    text-decoration: none
     border: 1px solid $border
+    margin-bottom: 22px
     &:hover
         img
             transform: scale(1.05) translateY(-6.5px)
+    
+    a 
+        text-decoration: none
 
     &__img 
         position: relative
@@ -86,6 +134,9 @@ img
 
 .button-more
     grid-column: 1/4
+    -ms-grid-row: 7
+    -ms-grid-column: 1
+    -ms-grid-column-span: 5
     text-align: center
     button
         border: 1px solid $border
@@ -117,4 +168,14 @@ img
             background: url(../img/Chevron.svg) no-repeat
             transition: all 0.6s ease
 
+  
 @import "media"
+
+  
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) 
+    .item-hide 
+        display: none
+    
+    .item-shower
+        display: block
+    

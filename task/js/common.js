@@ -1,20 +1,19 @@
-const button = document.querySelector('.button-case');
-const hiddenItems = document.querySelectorAll('.item-hide');
+"use strict";
 
+var button = document.querySelector('.button-case');
+var hiddenItems = document.querySelectorAll('.item-hide');
+button.addEventListener('click', function () {
+  var textButton = button.innerText === 'See more' ? 'See less' : 'See more';
+  button.innerHTML = button.innerHTML.replace(button.innerText, textButton);
+  toggleElemetns();
+});
 
-button.addEventListener('click', () => {
-    const textButton = button.innerText === 'See more' ? 'See less' : 'See more';
-    button.innerHTML = button.innerHTML.replace(button.innerText, textButton )
-    toggleElemetns()
-})
-
-const toggleElemetns = () => {
-    hiddenItems.forEach((item) => {
-        if(item.className.indexOf('item-shower') === -1) {
-            item.className = item.className + ' item-shower'
+var toggleElemetns = function toggleElemetns() {
+    for(var i=0; i<hiddenItems.length;i++){
+        if (hiddenItems[i].className.indexOf('item-shower') === -1) {
+            hiddenItems[i].className = hiddenItems[i].className + ' item-shower';
+        } else {
+            hiddenItems[i].className = hiddenItems[i].className.replace(' item-shower', '');
         }
-        else {
-            item.className = item.className.replace(' item-shower', '')
-        }
-    });
-}
+    }
+};

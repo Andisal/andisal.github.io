@@ -6,10 +6,9 @@
 @media only screen and (max-width : 992px)
 	/**/
 
-
 @media only screen and (max-width : 769px)
 	.developments
-		grid-template-columns: 1fr
+		display: block
 		.developments-item
 			&__content 
 				padding: 0px 20px
@@ -21,6 +20,9 @@
 					transform: none
 
 		.button-more
+			-ms-grid-row: 5
+			-ms-grid-column: 1
+			-ms-grid-column-span: 1
 			grid-column: 1/2
 
 
