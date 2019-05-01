@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/reactflight/static/css/main.f1efcd89.chunk.css",
+    "main.js": "/reactflight/static/js/main.85475448.chunk.js",
+    "main.js.map": "/reactflight/static/js/main.85475448.chunk.js.map",
+    "runtime~main.js": "/reactflight/static/js/runtime~main.0261110c.js",
+    "runtime~main.js.map": "/reactflight/static/js/runtime~main.0261110c.js.map",
+    "static/css/2.c7bb94bc.chunk.css": "/reactflight/static/css/2.c7bb94bc.chunk.css",
+    "static/js/2.b88e1c2c.chunk.js": "/reactflight/static/js/2.b88e1c2c.chunk.js",
+    "static/js/2.b88e1c2c.chunk.js.map": "/reactflight/static/js/2.b88e1c2c.chunk.js.map",
+    "index.html": "/reactflight/index.html",
+    "precache-manifest.f4144fe419793abb764f249ec0385463.js": "/reactflight/precache-manifest.f4144fe419793abb764f249ec0385463.js",
+    "service-worker.js": "/reactflight/service-worker.js",
+    "static/css/2.c7bb94bc.chunk.css.map": "/reactflight/static/css/2.c7bb94bc.chunk.css.map",
+    "static/css/main.f1efcd89.chunk.css.map": "/reactflight/static/css/main.f1efcd89.chunk.css.map"
+  }
+}
