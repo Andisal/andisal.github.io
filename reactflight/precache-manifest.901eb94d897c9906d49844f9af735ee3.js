@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7a460f7bea9024cf319bd37504a6beb2",
+    "revision": "6028925ddfa061f7337bb09fbc8afb34",
     "url": "/reactflight/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reactflight/static/css/2.16f417f6.chunk.css"
   },
   {
-    "revision": "84d05a986e55163bb6b8",
-    "url": "/reactflight/static/css/main.dcfcfa7a.chunk.css"
+    "revision": "d18ff5b4b28992791a4b",
+    "url": "/reactflight/static/css/main.ddc4cce9.chunk.css"
   },
   {
     "revision": "324a1e837013dd1a1502",
     "url": "/reactflight/static/js/2.478fc86e.chunk.js"
   },
   {
-    "revision": "84d05a986e55163bb6b8",
-    "url": "/reactflight/static/js/main.cea615eb.chunk.js"
+    "revision": "d18ff5b4b28992791a4b",
+    "url": "/reactflight/static/js/main.2dd92b9e.chunk.js"
   },
   {
     "revision": "d10f43634ed5ed95775c",
